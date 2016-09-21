@@ -26,14 +26,14 @@ body{
 }
 .home-wrapper,.content-wrapper{
     box-sizing: border-box;
-  width:30%;
+  width:40%;
   height:100%;
   display: inline-block;
 float: left;
    border-right: 1px solid rgba(198, 196, 196, 0.22)
 }
 .content-wrapper{
-  width:70%;
+  width:60%;
 }
 .profile-picture{
      width: 100%;
