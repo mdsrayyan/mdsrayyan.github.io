@@ -107,14 +107,14 @@ margin-top: 320px;
 padding-right: 46.5px;
 width: 1463px;
 height: 83px;
-top: -41px;
+top: -170px;
 }
 .skew-bottom{
   padding-left: 46.5px;
 padding-right: 46.5px;
 width: 1463px;
 height: 83px;
-bottom: -41px;
+bottom: 170px;
 }
 .skew-top,.skew-bottom{
    position: absolute;
