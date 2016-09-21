@@ -97,7 +97,7 @@ margin-top: 320px;
 }
 .inner-container{
   width:100%;
-  height:400px;
+  height:100%;
   overflow:hidden;
   background:black;
   position:relative;
@@ -107,23 +107,23 @@ margin-top: 320px;
 padding-right: 46.5px;
 width: 1463px;
 height: 83px;
-top: -170px;
+top: -41px;
 }
 .skew-bottom{
   padding-left: 46.5px;
 padding-right: 46.5px;
 width: 1463px;
 height: 83px;
-bottom: 170px;
+bottom: -41px;
 }
 .skew-top,.skew-bottom{
    position: absolute;
 left: -100px;
--webkit-transform: rotate(-6.279deg);
--moz-transform: rotate(-6.279deg);
--o-transform: rotate(-6.279deg);
--ms-transform: rotate(-6.279deg);
-transform: rotate(-6.279deg);
+-webkit-transform: rotate(-3.279deg);
+-moz-transform: rotate(-3.279deg);
+-o-transform: rotate(-3.279deg);
+-ms-transform: rotate(-3.279deg);
+transform: rotate(-3.279deg);
 z-index: 50;
   background-color: #ffffff;
 }
