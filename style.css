@@ -36,6 +36,7 @@ overflow: hidden;
 }
 .content-wrapper{
   width:60%;
+  overflow: auto;
 }
 .profile-picture{
      width: 100%;
@@ -125,4 +126,10 @@ left: -100px;
 transform: rotate(-6.279deg);
 z-index: 50;
   background-color: #ffffff;
+}
+.signature{
+ position: absolute;
+bottom: 0;
+right: 0;
+}
 }
