@@ -101,6 +101,8 @@ margin-top: 320px;
   overflow:hidden;
   background:black;
   position:relative;
+  color: white;
+font-size: 24px;
 }
 .skew-top{
   padding-left: 46.5px;
