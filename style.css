@@ -97,7 +97,7 @@ margin-top: 320px;
 }
 .inner-container{
   width:100%;
-  height:100%;
+  height:auto;
   overflow:hidden;
   background:black;
   position:relative;
