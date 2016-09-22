@@ -43,3 +43,13 @@ html,body{
     width: 100%;
     height: 100%;
 }
+.quick-links ul li{
+  list-style-type:none;
+  text-decoration:none;
+  font-size:36px;
+  padding:10px;
+}
+
+.quick-links ul li:hover{
+  box-shadow: inset 2px 0 0 0 #53a7ea;
+}
