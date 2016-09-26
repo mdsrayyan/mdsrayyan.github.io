@@ -50,6 +50,6 @@ html,body{
   font-size:36px;
   padding:10px;
 }
-.quick-links ul li:hover{
+ul li:hover{
   box-shadow: inset 2px 0 0 0 #53a7ea;
 }
