@@ -70,3 +70,9 @@ html,body{
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+.intro{
+font-size: 26px;
+width: 40%;
+min-width: 620px;
+padding: 10% 0 0 2%;	
+}
