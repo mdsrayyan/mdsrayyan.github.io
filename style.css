@@ -70,6 +70,7 @@ html,body{
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+	color:#DEF900;
 }
 .intro{
 font-size: 26px;
