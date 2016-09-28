@@ -7,30 +7,24 @@
 	rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="font.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+<script src="app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
 
 <title>JS Bin</title>
 </head>
-<body>
+<body ng-app="portfolioApp">
 	<div class="wrapper">
-		<div class="layer"></div>
 		<div class="quick-links">
 			<ul>
-				
-				<li><span>Home</span></li>
-				<li><span>Projects</span></li>
-				<li><span>Skills</span></li>
-				<li><span>About</span></li>
-				<li><span>Contact</span></li>
+        <li><span ui-sref="state1">Home</span></li>
+				<li><span ui-sref="state2">Projects</span></li>
+				<li><span ui-sref="state3">Skills</span></li>
+				<li><span ui-sref="state4">About</span></li>
+				<li><span ui-sref="state5">Contact</span></li>
 			</ul>
 		</div>
-		<div class="intro">
-			<p><span class="greet">Hey Amigo</span>.....My name is <span class="name">Mohammad Sirajuddin Rayyan</span></p>
-			<p><span class="full-stack">Full Stack Developer</span> worked on <span class="hybrid">hybrid</span> and <span class="web-app">web applications</span>. Interested in <span class="coding">coding</span>,<span class="game-dev">game development</span>,<span class="drawing">drawing</span> and <span class="calligraphy">calligraphy</span>.</p>
-			<div class="signature">
-			<span class="sign"></span>
-		</div>
-		</div>
-		
+		<div ui-view></div>
 	</div>
 </body>
 </html>
