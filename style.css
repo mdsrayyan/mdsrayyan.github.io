@@ -101,6 +101,7 @@ width:300px;
 	display:block;
 	background-size:100% 100%;
 	margin:0px auto;
+	-webkit-filter: invert(100%);
 }
 .full-stack{
 	color:darkorange;
