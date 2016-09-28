@@ -86,3 +86,6 @@ color: chartreuse;
 .name{
 color:gold;	
 }
+.intro p:first-child{
+margin-bottom:20px;	
+}
