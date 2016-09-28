@@ -27,7 +27,7 @@ html,body{
 .wrapper{
        width: 100%;
     height: 100%;
-    background:rgb(65, 65, 65); 
+    background-image:url(home-background.JPG); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
