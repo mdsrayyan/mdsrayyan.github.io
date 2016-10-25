@@ -1,30 +1,334 @@
 <!DOCTYPE html>
-<html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<link href="https://fonts.googleapis.com/css?family=Josefin+Sans"
-	rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" type="text/css" href="font.css">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
-<script src="app.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
 
-<title>JS Bin</title>
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Mohammad Sirajuddin Rayyan</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
 </head>
-<body ng-app="portfolioApp">
-	<div class="wrapper">
-		<div class="quick-links">
-			<ul>
-        <li><span ui-sref="state1">Home</span></li>
-				<li><span ui-sref="state2">Projects</span></li>
-				<li><span ui-sref="state3">Skills</span></li>
-				<li><span ui-sref="state4">About</span></li>
-				<li><span ui-sref="state5">Contact</span></li>
-			</ul>
-		</div>
-		<div ui-view></div>
-	</div>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+            <li><a class="smoothscroll" href="#testimonials">Skills</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Rayyan.</h1>
+            <h3>I'm a Indian based <span>Full Stack Developer</span>, worked on <span>hybrid</span> and <span>web applications.
+            </span> Interested in <span>coding</span> ,<span>game development</span> ,<span>drawing</span> and <span>calligraphy</span>.</h3>
+            <div class="sign-section">
+             <img class="signature-pic"  src="images/sign.png" alt="" />
+                </div>
+            <hr />
+            <ul class="social">
+               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+             
+         </div>
+          
+      </div>
+
+   </header> <!-- Header End -->
+<!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>
+            I am a full stack develper,started my carrer in 2013. I worker on various technologies and their frameworks. I have worked on Javascript, AngularJS, BackboneJS, NodeJS, ReactJS, JSP, Jasmine, HTML and CSS. You can find my files and projects shared in GITHUB. 
+            <br><br>
+            I design games when i am free. Though i dont have any official releases right now, But sure you will find one in future. You can find my game related works in my blog DTEGames. 
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+                     <span>Mohammad Sirajuddin Rayyan</span><br>
+                     <span>Kondapur<br>
+                           Hyderabad, Telangana, India
+                     </span><br>
+                     <span>(+91) 8523881775</span><br>
+                     <span>mds0060@gmail.com</span>
+                  </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+   
+   
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>SRKR Engineering College</h3>
+                  <p class="info">Bachelor of Technology<span>&bull;</span> <em class="date">March 2013</em></p>
+
+                  <p>
+                  Sagi Ramakrishnam Raju Engineering College (SRKR Engineering College), is a co-educational, independent and a private Engineering college. It is one of the oldest seminaries formed in 1980s to provide a better quality technical education to students. The college is located in the country side with a scenic beauty in a 30 acres plot in Chinna-Amiram on Bhimavaram - Juvvalapalem state highway; just 2 miles from Bhimavaram town.
+		<br><br>
+The college was accorded permanent affiliation by Andhra University from 1987 for four-year degree courses. The College was registered under the section 2 (f) of the UGC Act and it is eligible to receive central assistance under section 12 (b) of UGC. The College is recognized by the AICTE (All India Council for Technical Education) and the Institution of Engineers (India).		
+</p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+     
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>
+            </p>
+
+            <div class="bars">
+
+               <ul class="skills">
+                  <li><span class="bar-expand HTML"></span><em>HTML5</em></li>
+                  <li><span class="bar-expand CSS"></span><em>CSS3</em></li>
+                  <li><span class="bar-expand JavaScript"></span><em>JavaScript</em></li>
+                  <li><span class="bar-expand JQuery"></span><em>JQuery</em></li>
+                  <li><span class="bar-expand AngularJS"></span><em>AngularJS</em></li>
+                  <li><span class="bar-expand BackboneJS"></span><em>BackboneJS</em></li>
+                  <li><span class="bar-expand ReactJS"></span><em>ReactJS</em></li>
+		<li><span class="bar-expand Unity"></span><em>Unity3D</em></li>
+		<li><span class="bar-expand Blender"></span><em>Blender</em></li>
+		<li><span class="bar-expand Photoshop"></span><em>Photoshop</em></li>
+               </ul>
+
+            </div><!-- end skill-bars -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead"> New projects, freelance inquiry or even a coffee.
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="" method="post" id="contactForm" name="contactForm">
+               <fieldset>
+
+                  <div>
+                     <label for="contactName">Name <span class="required">*</span></label>
+                     <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+                     <label for="contactEmail">Email <span class="required">*</span></label>
+                     <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+                     <label for="contactSubject">Subject</label>
+                     <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+               </fieldset>
+               </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error boy</div>
+               <!-- contact-success -->
+               <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+               </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+                  <h4>Address and Phone</h4>
+                  <p class="address">
+                     <span>Mohammad Sirajuddin Rayyan</span><br>
+                     <span>Kondapur<br>
+                           Hyderabad, Telangana, India
+                     </span><br>
+                     <span>(+91) 8523881775</span><br>
+                     <span>mds0060@gmail.com</span>
+                  </p>
+
+               </div>
+
+               
+
+            </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2016 Rayyan</li>
+               <li>Design by <a title="Styleshout" href="https://mdsrayyan.github.io/">Rayyan</a></li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+  
+
 </body>
+
 </html>
