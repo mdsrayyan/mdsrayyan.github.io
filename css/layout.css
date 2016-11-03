@@ -86,6 +86,10 @@ header .sign-section{
   width:70%;
 }
 header .signature-pic{
+	-moz-filter:invert(85%);
+	-o-filter:invert(85%);
+	-ms-filter:invert(85%);
+	-webkit-filter:invert(85%);
         filter: invert(85%);
     width:30%;
     height:auto;
