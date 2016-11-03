@@ -42,6 +42,7 @@ header {
    overflow: hidden;
 }
 
+
 /* vertically center banner section */
 header:before {
    content: '';
